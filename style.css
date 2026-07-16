@@ -302,3 +302,15 @@ nav ul{
 }
 
   }
+/* ANIMAÇÕES */
+
+section{
+    opacity:0;
+    transform:translateY(40px);
+    transition:1s;
+}
+
+section.mostrar{
+    opacity:1;
+    transform:translateY(0);
+}
